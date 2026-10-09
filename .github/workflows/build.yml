@@ -15,10 +15,8 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Generate Gradle wrapper and build
-        run: |
-          gradle wrapper --gradle-version 8.10
-          ./gradlew build
+      - name: Build
+        run: gradle build
 
       - name: Upload jar
         uses: actions/upload-artifact@v4
