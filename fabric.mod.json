@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "fcesp",
+  "version": "${version}",
+  "name": "FreecamESP",
+  "description": "Freecam + ESP (chests, shulkers, items) - client-side only",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.fcesp.FreecamEspMod"]
+  },
+  "depends": {
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
